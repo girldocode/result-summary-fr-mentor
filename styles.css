@@ -40,7 +40,8 @@ body {
 }
 
 .result {
-    width: 50%;
+    /* width: 50%; */
+    flex: 1;
     padding: 1.5rem 2rem;
     border-radius: 2rem;
     background: linear-gradient(to bottom, var(--Light-slate-blue),
@@ -91,7 +92,8 @@ body {
 }
 
 .summary {
-    width: 50%;
+    /* width: 50%; */
+    flex: 1;
     padding: 1.5rem 2rem;
     background: linear-gradient(--White);
     display: flex;
@@ -178,4 +180,13 @@ body {
 .btn:hover {
     background: linear-gradient(to bottom, var(--Light-lavender),
             var(--Dark-gray-blue));
+}
+
+
+@media (max-width: 640px) {
+    .card {
+        flex-direction: column;
+        max-width: 500px;
+    }
+    
 }
