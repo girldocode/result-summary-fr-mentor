@@ -1,0 +1,30 @@
+@media screen and (max-width: 726px) {
+    body {
+        min-height: unset;
+    }
+
+    .card {
+        flex-direction: column;
+    }
+
+    .result,
+    .summary {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 653px) {
+    body {
+        background-color: var(--White);
+    }
+
+    .card {
+        border-radius: unset;
+        box-shadow: none;
+    }
+
+    .result {
+        border-top-right-radius: unset;
+        border-top-left-radius: unset;
+    }
+}
